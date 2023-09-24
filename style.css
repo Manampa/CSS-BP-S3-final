@@ -4,7 +4,7 @@
 
 .container {
     border: 4px solid gray;
-    padding: 24px;
+    padding: 24px 24px 0px 24px;
 }
 
 
@@ -19,11 +19,20 @@
 .box-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
 .small-box {
     border: 4px solid gray;
     height: 100px;
-    width: calc(100% / 3);
+    width: 30%;
+    margin-bottom: 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
 }
